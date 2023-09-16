@@ -38,7 +38,7 @@ const toggleNavbar = () => (showMenu.value = !showMenu.value)
               href="https://wa.me/529621068291/"
             >
               <i
-                class="lg:text-gray-300 text-gray-500 fab fa-whatsapp text-lg leading-lg"
+                class="lg:text-gray-300 text-gray-500 fab fa-whatsapp leading-lg fa-2xl"
               ></i>
               <span class="lg:hidden inline-block ml-2">Whatsapp</span></a
             >
@@ -49,7 +49,7 @@ const toggleNavbar = () => (showMenu.value = !showMenu.value)
               target="_blank"
               href="https://www.instagram.com/fisioterapia_conamor/"
               ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg"
+                class="lg:text-gray-300 text-gray-500 fab fa-instagram leading-lg fa-2xl"
               ></i
               ><span class="lg:hidden inline-block ml-2">Instagram</span></a
             >
