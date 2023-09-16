@@ -21,14 +21,13 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
         </div>
         <div class="container relative mx-auto">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+            <div class="w-full lg:w-6/12 px-2 ml-auto mr-auto text-center">
               <div class="pr-12">
                 <h1 class="text-white font-title uppercase text-5xl">
-                  Diana Victorio
+                  LTF. Diana Victorio
                 </h1>
                 <p class="mt-4 text-lg text-gray-300">
-                  Para mi Dianita. Eres lo maximo, lo mejor de mi vida. Me
-                  encanta ver lo que haces cada día por las personas.
+                  Amor en cada movimiento, salud en cada sesión
                 </p>
               </div>
             </div>
@@ -63,13 +62,15 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-14 h-14 mb-5 shadow-lg rounded-full bg-purple-400"
                   >
-                    <i class="fas fa-award"></i>
+                    <i class="fa-solid fa-baby fa-xl"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">La Numero 1!</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Tu siempre seras la número 1 por siempre!
+                  <h6 class="text-xl font-semibold">Fisioterapia Pediátrica</h6>
+                  <p class="mt-2 mb-4 text-gray-600 text-justify">
+                    Es la disciplina encargada de tratar y atender a niños con
+                    problemas de desarrollo tardío, así como los que presentan
+                    problemas neurológicos y respiratorios. 
                   </p>
                 </div>
               </div>
@@ -80,18 +81,28 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
               >
                 <div class="px-4 py-5 flex-auto">
                   <div
-                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-14 h-14 mb-5 shadow-lg rounded-full bg-sky-400"
                   >
-                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-brain fa-xl"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Amor</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Todos los días me demuestras cuanto me amas.
+                  <h6 class="text-xl font-semibold">
+                    Fisioterapia Neurológica
+                  </h6>
+                  <p class="mt-2 mb-4 text-gray-600 text-justify">
+                    Tratamiento de las lesiones y alteraciones ocasionadas por
+                    una afectación del Sistema Nervioso central o periférico.
+                    Las diferentes tratamientos neurológicos realizados están
+                    enfocados en recuperar las funciones motoras de pacientes
+                    que presentan patologías y lesiones como Parkinson,
+                    fibromialgia, accidentes neurovasculares, ictus, esclerosis
+                    múltiple, traumatismos, cráneo-encefálicos, lesiones
+                    medulares, patologías neurodegenerativas y lesiones
+                    periféricas.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div class="md:pt-6 w-full md:w-4/12 px-4 text-center">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
               >
@@ -99,51 +110,54 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
                   <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
                   >
-                    <i class="fas fa-hand-peace"></i>
+                    <i class="fas fa-person-cane fa-xl"></i>
                   </div>
-                  <h6 class="text-xl font-semibold">Paz</h6>
-                  <p class="mt-2 mb-4 text-gray-600">
-                    Eres mi lugar seguro, mi cita perfecta.
+                  <h6 class="text-xl font-semibold">Fisioterapia Geriátrica</h6>
+                  <p class="mt-2 mb-4 text-gray-600 text-justify">
+                    Está centrada en atender las patologías y lesiones propias
+                    del envejecimiento como lo son Artritis, Artrosis, uso de
+                    prótesis articulares, fractura de cadera, alteraciones de la
+                    coordinación y el equilibrio, Parkinson, derrame cerebral,
+                    secuelas de cáncer, Demencia y Alzheimer, limitaciones
+                    funcionales relacionadas con la movilidad, enfermedades
+                    cardiacas y pulmonares, incontinencia, entre otras. 
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap items-center mt-32">
+          <div class="flex flex-wrap mt-24">
             <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
               <div
                 class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
               >
-                <i class="fa-solid fa-shield-heart text-xl"></i>
+                <i class="fa-solid fa-child-dress fa-2xl"></i>
               </div>
               <h3 class="text-3xl mb-2 font-semibold leading-normal">
-                Y esto es para ti...
+                Conóceme
               </h3>
               <p
                 class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
               >
-                Hice esto con mucho amor para que le demuestres al mundo lo
-                increible, hermosa que eres y lo orgulloso que estoy de ti,
-                gracias por todo el amor y el apoyo que me has dado durante ya
-                15 meses.
+                Soy Fisioterapueta, con más de 4 años de experiencia, he
+                trabajado en diversas instituciones como IMSS, DIF,
+                particulares.
               </p>
-              <p
+              <!-- <p
                 class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
-              >
-                Siempre estare contigo en las buenas y en las malas. Feliz 15
-                meses mi vida,
-              </p>
-              <a href="#" class="font-bold text-gray-800 mt-8"
-                >con amor Chavita!</a
+              ></p> -->
+              <a href="#" class="font-bold text-gray-800 mt-8">
+                Mi compromiso es poder dar a mis pacientitos una mejor calidad
+                de vida con mucho ejercicio y dedicación.</a
               >
             </div>
-            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-8">
               <div
                 class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg"
               >
                 <img
-                  alt="tu y yo en la cascada"
-                  src="../assets//images/img2.webp"
+                  alt="Diana Villalobos Victorio"
+                  src="../assets//images/dianita.webp"
                   class="w-full align-middle rounded-t-lg"
                 />
                 <blockquote class="relative p-8 mb-4">
@@ -160,10 +174,10 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
                     ></polygon>
                   </svg>
                   <h4 class="text-xl font-bold text-gray">
-                    Aqui en la cascada jejeje
+                    LTF. Diana Laura Villalobos Victorio
                   </h4>
                   <p class="text-md font-light mt-2 text-gray">
-                    mucho amor amor amor amor amor
+                    Cédula Profesional: 12946920
                   </p>
                 </blockquote>
               </div>
@@ -205,25 +219,25 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
                 <div
                   class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300"
                 >
-                  <i class="fas fa-rocket text-xl"></i>
+                  <i class="fas fa-graduation-cap fa-2xl"></i>
                 </div>
-                <h3 class="text-3xl font-semibold">Aqui iran mas cosas!</h3>
-                <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  Fisioterapia con Amor
-                </p>
+                <h3 class="text-3xl font-semibold">
+                  Especialidades y Conocimientos
+                </h3>
+                <!-- <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  Fisioterapia Neurológica
+                </p> -->
                 <ul class="list-none mt-6">
                   <li class="py-2">
                     <div class="flex items-center">
                       <div>
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="fas fa-fingerprint"></i
+                          ><i class="fas fa-brain fa-lg"></i
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">
-                          La mejor fisioterapeuta de mundo
-                        </h4>
+                        <h4 class="text-gray-600">Fisioterapia Neurológica</h4>
                       </div>
                     </div>
                   </li>
@@ -232,11 +246,11 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
                       <div>
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="fab fa-html5"></i
+                          ><i class="fas fa-baby fa-lg"></i
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">El mejor lugar</h4>
+                        <h4 class="text-gray-600">Fisioterapia Pediátrica</h4>
                       </div>
                     </div>
                   </li>
@@ -245,11 +259,52 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
                       <div>
                         <span
                           class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
-                          ><i class="far fa-paper-plane"></i
+                        >
+                          <i class="fas fa-person-cane fa-lg"></i
                         ></span>
                       </div>
                       <div>
-                        <h4 class="text-gray-600">Caminas por que caminas!</h4>
+                        <h4 class="text-gray-600">Fisioterapia Geriátrica</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          ><i class="fas fa-bone fa-lg"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Fisioterapia Ortopédica</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                        >
+                          <i class="fa-solid fa-lungs fa-lg"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Fisioterapia Respiratoria</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3"
+                          ><i class="fa-solid fa-dumbbell"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Fisioterapia del Deporte</h4>
                       </div>
                     </div>
                   </li>
