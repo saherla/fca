@@ -34,6 +34,7 @@ const toggleNavbar = () => (showMenu.value = !showMenu.value)
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              target="_blank"
               href="https://wa.me/529621068291/"
             >
               <i
@@ -45,6 +46,7 @@ const toggleNavbar = () => (showMenu.value = !showMenu.value)
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              target="_blank"
               href="https://www.instagram.com/fisioterapia_conamor/"
               ><i
                 class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg"

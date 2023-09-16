@@ -314,13 +314,11 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
           </div>
         </div>
       </section>
-      <section class="pt-20 pb-48">
+      <!-- <section class="pt-20 pb-48">
         <div class="container mx-auto px-4">
           <div class="flex flex-wrap justify-center text-center mb-24">
             <div class="w-full lg:w-6/12 px-4">
-              <h2 class="text-4xl font-semibold">
-                Los titulos pueden ir aqui!
-              </h2>
+              <h2 class="text-4xl font-semibold">Titulos</h2>
               <p class="text-lg leading-relaxed m-4 text-gray-600">
                 Te ama tu novio
               </p>
@@ -465,7 +463,7 @@ const Navbar = defineAsyncComponent(() => import("../components/Navbar.vue"))
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <section class="pb-20 relative block bg-gray-900">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
