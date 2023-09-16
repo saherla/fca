@@ -34,11 +34,12 @@ const toggleNavbar = () => (showMenu.value = !showMenu.value)
           <li class="flex items-center">
             <a
               class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-              href="#"
-              ><i
-                class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg"
-              ></i
-              ><span class="lg:hidden inline-block ml-2">Facebook</span></a
+              href="https://wa.me/529621068291/"
+            >
+              <i
+                class="lg:text-gray-300 text-gray-500 fab fa-whatsapp text-lg leading-lg"
+              ></i>
+              <span class="lg:hidden inline-block ml-2">Whatsapp</span></a
             >
           </li>
           <li class="flex items-center">
@@ -48,7 +49,7 @@ const toggleNavbar = () => (showMenu.value = !showMenu.value)
               ><i
                 class="lg:text-gray-300 text-gray-500 fab fa-instagram text-lg leading-lg"
               ></i
-              ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+              ><span class="lg:hidden inline-block ml-2">Instagram</span></a
             >
           </li>
         </ul>
